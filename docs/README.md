@@ -86,13 +86,28 @@ There is also an [interactive tutorial](https://github.com/billyblu2000/AccoMont
 
 ![gui](https://github.com/billyblu2000/accomontage2/blob/master/docs/imgs/gui.jpg)
 
-Please check all the requirements in ``back-end/requirments.txt`` are satisfied, and run
+**Requirements**
+- node.js version >= 16
+  - yarn
+- Python
+ - pipenv
 
+**Startup of backend**
+Using pipenv
 ```
-python back-end/app.py
+pipenv install 
+pipenv shell
+cd back-end
+python app.py
 ```
 
-You can interact with the GUI at http://127.0.0.1:5000.
+**Startup of frontend**
+```
+cd front-end
+yarn install
+yarn start
+```
+- then access http://localhost:3000
 
 ### Reference and Acknowledgement
 

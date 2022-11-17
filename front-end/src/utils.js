@@ -1,8 +1,8 @@
 import { message } from "antd";
 import axios from "axios";
 
-// export const env = 'dev';
-export const env = 'prod';
+export const env = 'dev';
+// export const env = 'staging';
 // export const env = 'prod';
 export const localhost3000 = 'http://localhost:3000';
 export const localhost5000 = 'http://127.0.0.1:5000';
