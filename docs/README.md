@@ -90,7 +90,7 @@ There is also an [interactive tutorial](https://github.com/billyblu2000/AccoMont
 - node.js version >= 16
   - yarn
 - Python
- - pipenv
+  - pipenv
 
 **Startup of backend**
 Using pipenv
