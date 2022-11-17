@@ -86,13 +86,13 @@ There is also an [interactive tutorial](https://github.com/billyblu2000/AccoMont
 
 ![gui](https://github.com/billyblu2000/accomontage2/blob/master/docs/imgs/gui.jpg)
 
-**Requirements**
+Requirements
 - node.js version >= 16
   - yarn
 - Python
   - pipenv
 
-**Startup of backend**
+Startup of backend
 Using pipenv
 ```
 pipenv install 
@@ -101,7 +101,7 @@ cd back-end
 python app.py
 ```
 
-**Startup of frontend**
+Startup of frontend
 ```
 cd front-end
 yarn install
